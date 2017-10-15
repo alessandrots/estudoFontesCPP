@@ -1,0 +1,113 @@
+# depslib dependency file v1.0
+1508098832 source:/home/alessandrots/Projetos/cpp/source_prjs/MainInicial/MainInicial1.cpp
+	<iostream>
+	<string>
+	"./include/Cachorro.h"
+	"./include/Exemplo.h"
+	"./include/Escolha.h"
+	"./include/Visual.h"
+	<iostream>
+
+1507845261 source:/home/alessandrots/Projetos/cpp/source_prjs/MainInicial/externo.cpp
+	<iostream>
+
+1508076874 source:/home/alessandrots/Projetos/cpp/source_prjs/MainInicial/src/Cachorro.cpp
+	<string>
+	"Cachorro.h"
+
+1508079028 /home/alessandrots/Projetos/cpp/source_prjs/MainInicial/include/Cachorro.h
+	<string>
+	<iostream>
+	"Mamifero.h"
+	"SerVivo.h"
+
+1508077872 /home/alessandrots/Projetos/cpp/source_prjs/MainInicial/include/Mamifero.h
+	<iostream>
+
+1508077768 source:/home/alessandrots/Projetos/cpp/source_prjs/MainInicial/src/Mamifero.cpp
+	"Mamifero.h"
+
+1508078380 source:/home/alessandrots/Projetos/cpp/source_prjs/MainInicial/src/SerVivo.cpp
+	"SerVivo.h"
+
+1508078805 /home/alessandrots/Projetos/cpp/source_prjs/MainInicial/include/SerVivo.h
+	<string>
+
+1508080135 source:/home/alessandrots/Projetos/cpp/source_prjs/MainInicial/src/Exemplo.cpp
+	"Exemplo.h"
+
+1508080074 /home/alessandrots/Projetos/cpp/source_prjs/MainInicial/include/Exemplo.h
+	<iostream>
+
+1508098497 source:/home/alessandrots/Projetos/cpp/source_prjs/MainInicial/src/Areas.cpp
+	<iostream>
+	"Areas.h"
+
+1508098484 /home/alessandrots/Projetos/cpp/source_prjs/MainInicial/include/Areas.h
+
+1508098563 source:/home/alessandrots/Projetos/cpp/source_prjs/MainInicial/src/Escolha.cpp
+	"Escolha.h"
+
+1508098587 /home/alessandrots/Projetos/cpp/source_prjs/MainInicial/include/Escolha.h
+	<iostream>
+	"Areas.h"
+	"Visual.h"
+
+1508098511 /home/alessandrots/Projetos/cpp/source_prjs/MainInicial/include/Visual.h
+
+1508098520 source:/home/alessandrots/Projetos/cpp/source_prjs/MainInicial/src/Visual.cpp
+	<iostream>
+	"Visual.h"
+
+1508100608 source:/home/alessandrots/desenvolvimento/cpp/estudoFontesCPP/codeblocks/MainInicial/externo.cpp
+	<iostream>
+
+1508100608 source:/home/alessandrots/desenvolvimento/cpp/estudoFontesCPP/codeblocks/MainInicial/MainInicial1.cpp
+	<iostream>
+	<string>
+	"./include/Cachorro.h"
+	"./include/Exemplo.h"
+	"./include/Escolha.h"
+	"./include/Visual.h"
+	<iostream>
+
+1508100608 /home/alessandrots/desenvolvimento/cpp/estudoFontesCPP/codeblocks/MainInicial/include/Cachorro.h
+	<string>
+	<iostream>
+	"Mamifero.h"
+	"SerVivo.h"
+
+1508100608 /home/alessandrots/desenvolvimento/cpp/estudoFontesCPP/codeblocks/MainInicial/include/Mamifero.h
+	<iostream>
+
+1508100608 /home/alessandrots/desenvolvimento/cpp/estudoFontesCPP/codeblocks/MainInicial/include/SerVivo.h
+	<string>
+
+1508100608 /home/alessandrots/desenvolvimento/cpp/estudoFontesCPP/codeblocks/MainInicial/include/Exemplo.h
+	<iostream>
+
+1508100608 /home/alessandrots/desenvolvimento/cpp/estudoFontesCPP/codeblocks/MainInicial/include/Escolha.h
+	<iostream>
+	"Areas.h"
+	"Visual.h"
+
+1508100608 /home/alessandrots/desenvolvimento/cpp/estudoFontesCPP/codeblocks/MainInicial/include/Areas.h
+
+1508100608 /home/alessandrots/desenvolvimento/cpp/estudoFontesCPP/codeblocks/MainInicial/include/Visual.h
+
+1508100608 source:/home/alessandrots/desenvolvimento/cpp/estudoFontesCPP/codeblocks/MainInicial/src/Cachorro.cpp
+	<string>
+	"Cachorro.h"
+
+1508100608 source:/home/alessandrots/desenvolvimento/cpp/estudoFontesCPP/codeblocks/MainInicial/src/Escolha.cpp
+	"Escolha.h"
+
+1508100608 source:/home/alessandrots/desenvolvimento/cpp/estudoFontesCPP/codeblocks/MainInicial/src/Exemplo.cpp
+	"Exemplo.h"
+
+1508100608 source:/home/alessandrots/desenvolvimento/cpp/estudoFontesCPP/codeblocks/MainInicial/src/Mamifero.cpp
+	"Mamifero.h"
+
+1508100608 source:/home/alessandrots/desenvolvimento/cpp/estudoFontesCPP/codeblocks/MainInicial/src/SerVivo.cpp
+	"SerVivo.h"
+
