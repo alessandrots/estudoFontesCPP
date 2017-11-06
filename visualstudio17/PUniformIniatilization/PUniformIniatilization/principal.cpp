@@ -10,6 +10,10 @@ void add2(int *s1, int *s2, int *result)
 	*result = *s1 + *s2;
 }
 
+int add3(int &s1, int &s2) {
+	return s1 + s2;
+}
+
 void swap(int *s1, int *s2)
 {
 	int z = 0;
@@ -50,9 +54,7 @@ int main() {
 	int *ptr = &y;
 	cout << " ptr  " << ptr << endl;
 
-	
-
-	//a void point pode apontar para diferentes tipos de variáveis
+	//a void point pode apontar para diferentes tipos de variÃ¡veis
 	void *ptr1 = &x;
 	int *ptr2 = nullptr;
 	cout << " ptr1 " << ptr1 << endl;
@@ -81,6 +83,9 @@ int main() {
 	add2(&valor1, &valor2, &result2);
 
 	cout << " \n pResult = " << &result2 << " = " << result2 << endl;
+	
+	int res3 = add3(valor1, valor2);
+	cout << " \n add3(valor1, valor2) = " << res3 << endl;
 
 	int vl1 = 11;
 	int vl2 = 26;
