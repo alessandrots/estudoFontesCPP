@@ -84,6 +84,6 @@ int main () {
     Return indices of found strings,
     else an empty vector
     */
-}
+//}
 
 }
