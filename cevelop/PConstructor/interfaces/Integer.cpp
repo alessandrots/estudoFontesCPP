@@ -100,3 +100,7 @@ Integer & Integer::operator =(Integer &&a) {
 void Integer::operator() (){
 	std::cout << *m_pint << std::endl;
 }
+
+Integer::operator int() {
+	return *m_pint;
+}

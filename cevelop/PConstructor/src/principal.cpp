@@ -117,7 +117,14 @@ int main() {
 	Process(std::move(a));
 
 
+	Integer a3 { 5 };
 
+	// essa conversão só é permitida por conta do operator int
+//	int z3 = a3;//funciona sem explicit
+
+//	qdo tem a palavra error explicit na função operator int() : cannot convert ‘Integer’ to ‘int’ in initialization
+//	Se tiver explicity então static_cast<int>
+	int z3 = static_cast<int>(a3);//obrigatoriamente tem q fazer o cast qdo tem tem explicit
 
 	return 0;
 }

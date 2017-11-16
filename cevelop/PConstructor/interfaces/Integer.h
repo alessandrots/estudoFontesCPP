@@ -29,6 +29,12 @@ public:
 	Integer & operator =(const Integer &a);
 	Integer & operator =(Integer &&a);
 
+	//convert user specific type in primitive type
+//	Type Conversion Operator
+//	operator <type> No arguments No return type
+	//explicit : se colocar esse keyword não é possível fazer a conversão ou inicialização
+	explicit operator int();
+
 	void operator() ();
 
 //se omitir a friend word a função se tornará parte da classe
