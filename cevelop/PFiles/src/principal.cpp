@@ -7,6 +7,7 @@
 #include <iostream>
 #include <string>
 #include <fstream>
+#include <cstring>
 
 void Write() {
 	std::ofstream out { "/home/alessandrots/Projetos/outros/files-cpp/data.txt"};
@@ -64,14 +65,67 @@ void Read() {
 	std::cout << message << " : " << value << std::endl;
 }
 
+struct Record {
+	int id;
+	char name[10];
+};
 
+void WriteRecord(Record *p) {
+	std::ofstream binstream {"records", std::ios::binary | std::ios::out };
+
+	binstream.write((const char *)p, sizeof(Record));
+}
+
+Record getRecord() {
+	std::ifstream input{"records", std::ios::binary | std::ios::in};
+	Record r;
+	input.read((char*)&r, sizeof(Record));
+	return r;
+}
+
+//write read struct
 
 int main () {
-//	FILE SYSTEM LIBRARY
-	Write();
-	Read();
+	Record r;
+
+	r.id = 1001;
+	strcpy(r.name, "Alessandro");
+
+	WriteRecord(&r);
+
+	std::cout << "\n " << std::endl;
+
+	Record r2 = getRecord();
+
+	std::cout << "Record ==> id = " << r2.id << " NAME = " << r2.name << std::endl;
 	return 0;
 }
+
+//write read string
+//int main () {
+//	std::ofstream textstream {"data"};
+//	textstream << 12345678;
+//
+//	std::ofstream binstream {"binary.bin", std::ios::binary | std::ios::out };
+//
+//	int num { 12345678};
+//	binstream.write((const char*)&num, sizeof(num));
+//	binstream.close();
+//
+//	std::ifstream input{"binary", std::ios::binary | std::ios::in};
+//	input.read((char*)&num, sizeof(num));
+//
+//	std::cout << num << std::endl;
+//	return 0;
+//}
+
+//WRITE and READ
+//int main () {
+//	FILE SYSTEM LIBRARY
+//	Write();
+//	Read();
+//	return 0;
+//}
 
 //int main () {
 ////	/**
